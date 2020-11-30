@@ -1,15 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
-import { NouveauComponent } from './nouveau/nouveau.component';
-import { ButtonComponent } from './button/button.component';
+import { AppComponent } from './app.component';import { HeaderComponent } from './header/header.component';
+import { CocktailsListComponent } from './cocktails-list/cocktails-list.component';
+import { CocktailDetailsComponent } from './cocktail-details/cocktail-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NouveauComponent,
-    ButtonComponent
+    HeaderComponent,
+    CocktailsListComponent,
+    CocktailDetailsComponent,
   ],
   imports: [
     BrowserModule
